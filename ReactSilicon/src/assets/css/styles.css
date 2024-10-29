@@ -538,6 +538,57 @@ img{
 /* LOGO START */
 
 
+.logos {
+  display: none;
+  padding-block: 4rem;
+  background-color: var(--clr-bg);
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.logo-card {
+  width: 100%;
+  border: 1px solid var(--color-gray300);
+  padding: 2rem;
+  border-radius: var(--br-l);
+  display: grid;
+  place-items: center;
+}
+
+@media (width > 768px) {
+  display: block;
+
+  .logo-card:nth-last-of-type(-n+2) {
+    display: none;
+  }
+}
+
+@media (width > 768px) {
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .logo-card:nth-last-of-type(-n+2) {
+    display: none;
+  }
+
+}
+
+@media (width > 1200px) {
+  .container{
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .logo-card:nth-last-of-type(-n+2) {
+    display: block;
+  }
+
+}
+
+}
 
 /* START APP FEATURES */
 
@@ -811,7 +862,7 @@ img{
 }
 
 .column1 {
-  width: 33%;
+  width: auto;
 }
 
 .rubrik {
@@ -862,7 +913,7 @@ img{
 }
 
 .column2 {
-  width: 70%;
+  /* width: 70%; */
   padding-left: 150px;
 }
 

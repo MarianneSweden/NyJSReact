@@ -1,13 +1,13 @@
 import React from 'react'
 import MakeYourButton from '../assets/images/makeyourbutton.svg'
-import MakeYourMobil1 from '../assets/images/makeyourmobil1.svg'
+import MakeYourMobil1 from '../assets/images/makeyourmoneymobil1.svg'
 
 const MakeYourMoney = () => {
   return (
     <div>
     
     
-<section id="makeyourmoney"/>
+<section id="makeyourmoney">
 
 <div className="makeyourcontainer">
 
@@ -41,6 +41,7 @@ const MakeYourMoney = () => {
   <div>
   <img className="makeyourmobil1" src={MakeYourMobil1}/>
   </div>
+    </section>
 
 </div>
 

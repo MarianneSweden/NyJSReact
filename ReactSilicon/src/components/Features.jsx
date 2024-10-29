@@ -12,8 +12,8 @@ const Features = () => {
     <div>
       
     
-
-   <div className="container">
+      <section aria-label="App features" class="features">
+      <div className="container">
 
       <div className="iphone">
         <img src={AppFeaturesMobile}/>
@@ -95,7 +95,7 @@ const Features = () => {
    </div>
 
       
-
+  </section>
 
     </div>
   )

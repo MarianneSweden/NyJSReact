@@ -9,6 +9,11 @@ import Footer from './components/Footer'
 import Features from './components/Features'
 import Hero from './components/Hero'
 import HowDoes from './components/HowDoes'
+import MakeYourMoney from './components/MakeYourMoney'
+import MakeYourMoney2 from './components/MakeYourMoney2'
+import LovingClients from './components/LovingClients'
+import FaqLor from './components/FaqLoR'
+
 
 
 
@@ -19,14 +24,19 @@ function App() {
 
   return (
     <>
-    <Navbar></Navbar>
-    <Hero></Hero>
-    <Logos></Logos>
-    <HowDoes></HowDoes>
-    <Features></Features>
+    <Navbar/>
+    <Hero/>
+    <Logos/>
+    <Features/>
+    <HowDoes/>
+    <MakeYourMoney/>
+    <MakeYourMoney2/>
+    <LovingClients/>
+    <FaqLor/>
+    
    
-    <Newsletter></Newsletter>
-    <Footer></Footer>
+    <Newsletter/>
+    <Footer/>
     </>
   )
 }

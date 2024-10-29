@@ -7,7 +7,7 @@ const HowDoes = () => {
   return (
     <div>
       
-<section aria-label="How does it work" className="carousel-section"/>
+<section aria-label="How does it work" className="carousel-section">
   <div className="container space-y-3">
     <h2 className="h1">How Does it Work?</h2>
 
@@ -33,6 +33,7 @@ const HowDoes = () => {
           </div>
 
     </div>
+    </section>
   </div>
 
 
