@@ -34,7 +34,7 @@ const LovingClients = () => {
       <div className="lovingaltext">
         <p>Nunc senectus leo vel venenatis accumsan vestibulum sollicitudin amet porttitor. Nisl bibendum nulla tincidunt eu enim ornare dictumst sit amet. Dictum pretium dolor tincidunt egestas eget nunc.</p>
       </div>
-    <img className={LoveAlbert}/>
+      <img class="albert" src={LoveAlbert}/>
   
   </div>
  

@@ -15,27 +15,17 @@ const Navbar = () => {
         <img src={SiliconLogo} />
       </a>
 
-      {/* <div className="darkmode-toggle">
-        <p>Dark Mode</p>
-        <label className="toggle"> 
-          <input type="checkbox" id="darkmode-switch"/>
-          <span className="slider"></span>
-        </label>
-      </div> */}
 
       
-      {/* <div className="darkmode-toggle">
-        <p>Dark Mode</p> */}
+      <div className="darkmode-toggle">
+        <p>Dark Mode</p>
         {/* <label className="toggle">  */}
         <ToggleSwitch/>
           {/* <span className="slider"></span> */}
         {/* </label> */}
-      {/* </div> */}
-
-      {/* <ToggleSwitch/> */}
+      </div>
 
      
-
 
       <button className="menu-btn" aria-controls="main-menu" aria-expanded="false" aria-label="toggle navigation">
         <img src= {BurgerMenu} />
@@ -63,3 +53,14 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
+
+
+      {/* <div className="darkmode-toggle">
+        <p>Dark Mode</p>
+        <label className="toggle"> 
+          <input type="checkbox" id="darkmode-switch"/>
+          <span className="slider"></span>
+        </label>
+      </div> */}

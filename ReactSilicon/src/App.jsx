@@ -2,7 +2,6 @@
 import './assets/css/styles.css'
 
 import Navbar from './components/Navbar'
-
 import Logos from './components/Logos'
 import Newsletter from './components/Newsletter'
 import Footer from './components/Footer'
@@ -13,11 +12,6 @@ import MakeYourMoney from './components/MakeYourMoney'
 import MakeYourMoney2 from './components/MakeYourMoney2'
 import LovingClients from './components/LovingClients'
 import FaqLor from './components/FaqLoR'
-
-
-
-
-
 
 function App() {
 
