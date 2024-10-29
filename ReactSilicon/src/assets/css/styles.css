@@ -40,10 +40,37 @@
   --section-spacing :4rem;
 }
 
+:root[data-theme="light"]{
+  --color-bg: var(--color-white);
+  --color-bg-secondary: var(--color-gray100);
+  --color-white-to-gray: var(--color-white);
+  --color-text-heading: var(--color-gray900);
+  --color-text-heading-2: var(--color-gray800);
+  --color-text: var(--color-gray600);
+  --border-color: var(--color-gray300);
+  --btn-store-bg: var(--color-gray900);
+}
+
+:root[data-theme="dark"] {
+  --clr-bg: var(--color-gray900);
+  --clr-bg-lightDark: var(--color-gray800);
+  --clr-bg-darkDark: var(--color-gray900);
+  --clr-bg-100:rgba(255,255,255,0.04);
+  --clr-text-body:rgba(255,255,255,0.7);
+  --clr-text-heading:#ffffff;
+  --clr-text-navigation:#ffffff;
+  --clr-logo-bg: rgba(99,101,241,0.08); 
+  --white-to-gray:rgba(255,255,255,0.); 
+
+}
+
+
+
 .dark{
   
   --clr-bg: var(--color-gray900);
   --clr-bg-lightDark: var(--color-gray800);
+  --clr-bg-darkDark: var(--color-gray900);
   --clr-bg-100:rgba(255,255,255,0.04);
   --clr-text-body:rgba(255,255,255,0.7);
   --clr-text-heading:#ffffff;
@@ -690,6 +717,9 @@ img{
 
 
 #makeyourmoney {
+ 
+  background-color:var(--clr-bg-darkDark);
+
   display: grid;
   gap: 1rem;
 
@@ -726,6 +756,9 @@ img{
 }
 
 #makeyourmoney2 {
+
+  background-color:var(--clr-bg-darkDark);
+
   gap: 1rem;
   padding-top: 6rem;
   padding-bottom: 8rem;
@@ -779,7 +812,9 @@ img{
 
 
 #lovingclients {
-  background-color: var(--color-gray100);
+  /* background-color:var(--clr-bg-lightDark); */
+  background-color: var(--clr-bg-lightDark);
+  /* background-color: var(--color-gray100); */
 
   .lovingcontainer {
     padding-left: 8rem;
@@ -800,8 +835,7 @@ img{
     }
 
     #lovingdelandre {
-
- 
+     
 
       padding-inline: 25px;
       height: 350px;
@@ -848,6 +882,9 @@ img{
 /*    START FAQ     */
 
 #faq {
+
+  background-color: var(--clr-bg-darkDark);
+
   padding-left: 8rem;
   padding-right: 4rem;
   padding-bottom: 8rem;
@@ -918,7 +955,7 @@ img{
 }
 
 
-/* Dragspelet */
+Dragspelet
 .accordion {
   width: 100%;
   max-width: 700px;
@@ -944,7 +981,7 @@ img{
 }
 
 .accordion-header:hover {
-  background-color: var(--color-gray200);
+  background-color: var(--color-gray400);
 }
 
 .arrow-icon {
@@ -955,7 +992,7 @@ img{
 }
 
 .accordion-content {
-  display: none;
+  display: block;
   padding: 15px;
   background-color: white;
   border-top: 1px solid #ccc;
@@ -978,6 +1015,11 @@ img{
 
 
 #newsletter {
+background-color:var(--clr-bg-lightDark);
+/* background-color: var(--clr-bg-100); */
+  /* background-color:var(--clr-bg-lightDark); */
+  /* background-color: var(--color-gray100); */
+
   padding-left: 4rem;
   padding-right: 4rem;
   padding-bottom: 5rem;
@@ -985,7 +1027,7 @@ img{
 
   font-size: 24px;
   font-weight: bold;
-  background-color: var(--color-gray100);
+ 
 
   display: grid;
   grid-template-columns: auto 1fr 1fr auto;
@@ -1037,6 +1079,7 @@ img{
 /*Footer*/
 
 .footer {
+  background-color: var(--clr-bg-darkDark);
   padding: 60px;
   color: var(--color-gray600);
   display:flex;
