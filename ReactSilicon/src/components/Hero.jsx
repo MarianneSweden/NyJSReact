@@ -23,14 +23,14 @@ const Hero = () => {
           </a>
 
             <a href="#" className="store-btn">
-              <span className="sr-only">Get it on Goole Play</span>
+              <span className="sr-only">Get it on Google Play</span>
                 <img src={GooglePlay} />
             </a>
           </div>
 
             <div className="more">
                <a href="#features" className="btn-round btn-white">
-                <img src={Arrow}/>
+                {/* <img src={Arrow}/> */}
                 <i className="fa-solid fa-chevron-down"></i>
               </a>
               <span>Discover more</span>

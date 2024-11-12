@@ -21,7 +21,7 @@ const LovingClients = () => {
         <div className="lovingdelett">
           <p>Clients are <br/>Loving Our App</p>
         </div>
-
+        
         {/* Renderar varje testimonial */}
         {testimonials.map((testimonial) => (
           <div key={testimonial.id} className="testimonial-item">
